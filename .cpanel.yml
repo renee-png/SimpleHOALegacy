@@ -3,6 +3,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/acmcc/public_html/SimpleHOALegacy
+    - export DEPLOYPATH=/home/avria/public_html/SimpleHOALegacy
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
